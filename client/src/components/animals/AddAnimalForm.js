@@ -13,6 +13,7 @@ const AddAnimalForm = ({ addAnimal, history }) => {
     size: '',
     color: '',
     name: '',
+    vaccinated: '',
     description: '',
   });
 
@@ -26,6 +27,7 @@ const AddAnimalForm = ({ addAnimal, history }) => {
     size,
     color,
     name,
+    vaccinated,
     description,
   } = formData;
 
@@ -50,6 +52,7 @@ const AddAnimalForm = ({ addAnimal, history }) => {
       size,
       color,
       name,
+      vaccinated,
       description,
       image,
       history,
@@ -134,6 +137,16 @@ const AddAnimalForm = ({ addAnimal, history }) => {
             placeholder='* Name'
             name='name'
             value={name}
+            onChange={(e) => onChange(e)}
+            required
+          />
+        </div>
+        <div className='form-group'>
+          <input
+            type='text'
+            placeholder='* Vaccinated'
+            name='vaccinated'
+            value={vaccinated}
             onChange={(e) => onChange(e)}
             required
           />
