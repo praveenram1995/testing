@@ -42,7 +42,7 @@ const AnimalSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    default: 'adoptable',
+    default: 'vaccinated',
   },
   date: {
     type: Date,
