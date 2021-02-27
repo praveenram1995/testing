@@ -41,7 +41,7 @@ router.post(
         breed: req.body.breed,
         age: req.body.age,
         gender: req.body.gender,
-        size: req.body.size,
+        vaccinated: req.body.vaccinated,
         color: req.body.color,
         name: req.body.name,
         description: req.body.description,

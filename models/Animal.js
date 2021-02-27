@@ -28,7 +28,7 @@ const AnimalSchema = new mongoose.Schema({
   gender: {
     type: String,
   },
-  size: {
+  vaccinated: {
     type: String,
   },
   color: {

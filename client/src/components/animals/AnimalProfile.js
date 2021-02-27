@@ -59,8 +59,8 @@ const AnimalProfile = ({ getAnimal, animal: { animal, loading }, match }) => {
                   {animal.gender}
                 </p>
                 <p>
-                  <strong>Size: </strong>
-                  {animal.size}
+                  <strong>vaccinated: </strong>
+                  {animal.vaccinated}
                 </p>
                 <p>
                   <strong>Color: </strong>

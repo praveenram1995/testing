@@ -78,7 +78,7 @@ export const addAnimal = ({
   breed,
   age,
   gender,
-  size,
+  vaccinated,
   color,
   name,
   description,
@@ -97,7 +97,7 @@ export const addAnimal = ({
   formData.append('breed', breed);
   formData.append('age', age);
   formData.append('gender', gender);
-  formData.append('size', size);
+  formData.append('vaccinated', vaccinated);
   formData.append('color', color);
   formData.append('name', name);
   formData.append('description', description);
