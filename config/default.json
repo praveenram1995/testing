@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://san123:san123@petfinder-gfgrt.mongodb.net/test?retryWrites=true&w=majority",
+  "mongoURI": "mongodb+srv://savepets:wdgVWl8sEEudcxvJ@cluster0.djbhe.mongodb.net/SavePets",
   "jwtSecret": "mysecrettokenforpetfinder"
 }
